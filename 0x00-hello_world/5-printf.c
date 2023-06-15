@@ -1,11 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-printf ("with proper grammar, but the outcome is a piece of art,");
+/*string initialisation*/
+char Mystr[] = "with proper grammar, but the outcome is a piece of art,";
+printf(Mystr); /*writing the string to stdout*/
 return (0);
 }
