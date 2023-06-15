@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o mainn.o 
+gcc -c mainn.c  -o mainn.o 
